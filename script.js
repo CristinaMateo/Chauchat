@@ -1,6 +1,7 @@
 let cargador = "pium!"
 
-function chauchat(num){
+function chauchat(){
+    let num = parseInt( prompt("Introduzca un número")); 
     if(typeof num == "number"){
         return cargador.repeat(num)
     } 
@@ -8,3 +9,6 @@ function chauchat(num){
 }
 
 console.log(chauchat("ramita"))
+
+
+ 
