@@ -1,7 +1,10 @@
 let cargador = "pium!"
 
 function chauchat(num){
-    return cargador.repeat(num)
+    if(typeof num == "number"){
+        return cargador.repeat(num)
+    } 
+    return "Illo, me he quedao pillá!"
 }
 
-console.log(chauchat(8))
+console.log(chauchat("ramita"))
