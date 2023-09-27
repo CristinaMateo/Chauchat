@@ -13,7 +13,7 @@ let cargador = "pium!"
 
 function chauchat(){
     let num = Math.floor(Math.random() * 10)
-    if(num >= 9){
+    if(num >= 2){//80% posibilidades de pillarse
         return "Illo, me he quedao pillá!"
     }
     let resultado = ""
