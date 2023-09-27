@@ -1,4 +1,4 @@
-let cargador = "pium!"
+
 /*
 function chauchat(){
  let num = parseInt( prompt("Introduzca un número")); 
@@ -7,16 +7,13 @@ function chauchat(){
         return resultado.join("\n")
     }
         return "Illo, me he quedao pillá!"
-}
+}*/
 
-console.log(chauchat())
+let cargador = "pium!"
 
- */
-
- // 
- function chauchat(){
-    let num = parseInt( prompt("Introduzca un número "));
-    if(isNaN(num)){
+function chauchat(){
+    let num = Math.floor(Math.random() * 10)
+    if(num >= 9){
         return "Illo, me he quedao pillá!"
     }
     let resultado = ""
@@ -28,5 +25,11 @@ console.log(chauchat())
     }
     return resultado
 }
+ 
 
-console.log(chauchat())
+ // 
+
+
+
+
+ 
